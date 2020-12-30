@@ -1,27 +1,25 @@
-if(move_down = true){
-	sprite_index = spr_player_spd;
-}else{
-	sprite_index = spr_player;	
-}
 
 
-move_down = false;
 
 if(keyboard_check(ord("D"))){
 
 	x+= spd;
-	image_xscale = 1;
 	
 }else if(keyboard_check(ord("A"))){
 	x-=spd;
-	image_xscale = -1;
 	
 }
 
-if(keyboard_check(ord("S"))){
+if(keyboard_check(down)){
 	y+= spd;
-	move_down = true;
-}else if(keyboard_check(ord("W"))){
+ sprite_index = spr_player_down;
+}else if(keyboard_check(up)){
 	y-=spd;
-	
+ sprite_index = spr_player_up;
+}
+
+if(keyboard_check_released(down)){
+	sprite_index = spr_player_down_idle;
+}else if(keyboard_check_released(up)){
+	sprite_index = spr_player_up_idle;
 }
