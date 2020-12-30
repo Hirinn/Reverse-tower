@@ -1,2 +1,2 @@
 spd = 3;
-move = false;
+move_down  = false;
