@@ -2,11 +2,15 @@
   "resources": [
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},"order":1,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spr_lobo_lado1","path":"sprites/spr_lobo_lado1/spr_lobo_lado1.yy",},"order":5,},
+    {"id":{"name":"spr_lobo_lado_idle1","path":"sprites/spr_lobo_lado_idle1/spr_lobo_lado_idle1.yy",},"order":6,},
     {"id":{"name":"spr_player_up_idle","path":"sprites/spr_player_up_idle/spr_player_up_idle.yy",},"order":3,},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},"order":1,},
+    {"id":{"name":"spr_lobo_lado2","path":"sprites/spr_lobo_lado2/spr_lobo_lado2.yy",},"order":8,},
     {"id":{"name":"spr_player_down_idle","path":"sprites/spr_player_down_idle/spr_player_down_idle.yy",},"order":0,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":4,},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},"order":2,},
+    {"id":{"name":"spr_lobo_lado_idle2","path":"sprites/spr_lobo_lado_idle2/spr_lobo_lado_idle2.yy",},"order":9,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
